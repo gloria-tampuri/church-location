@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(#16365ed5, #16365ed5);
+    font-family: 'Roboto', sans-serif;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 100vh; */
+}
+
+main{
+    
+    font-size: 0.8rem;
+    color: white;
+    width: 80%;
+    margin:0 auto;
+}
+
+header{
+    width: 100%;
+}
+
+header img{
+    margin: 1rem ;
+    width:4rem;
+}
+
+.login{
+    width:100%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.current{
+    font-weight:bolder;
+}
+
+form{
+    
+    margin: 2rem auto;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+input{
+    width: 100%;
+    /* height: 40px; */
+    padding: 0.5rem 1rem ;
+    border:none;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 2px solid #16365E;
+}
+
+input:link{
+    border: 2px solid #16365E;
+}
+
+input:active{
+    border: 2px solid #16365E;
+}
+
+input:hover{
+    border: 2px solid #16365E;
+}
+
+button{
+    width:100%;
+    margin-top: 2rem;
+    background-color: white;
+    border:none;
+    color: #16365E;
+    font-weight: bolder;
+    padding: 0.5rem 1rem;
+    border: 2px solid #16365E;
+    border-radius: 0.5rem;
+}
+
+form a {
+    color: white;
+    display: block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.unicode {
+    background-color: white;
+    width: 10%;
+   margin: 2rem 0;
+    padding: 0.5rem ;
+    border-radius: 0.2rem;
+}
+
+.forget{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.description{
+    margin:1rem 0;
+    width: 85%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.ff{
+    display:flex ;
+}
+
+.ff a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
