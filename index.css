@@ -54,9 +54,23 @@ main a{
     font-size: 1.2rem;
 }
 
-@media screen and (min-width: 900px) {
-    body{
-        width:30%;
-        margin: 2rem;
-    }
+
+    @media screen and (min-width: 900px) {
+
+        header{
+            display: grid;
+            place-content: center;
+    
+        }
+
+        header img{
+            margin-top:2rem;
+            height: 10rem;
+            width: 10rem;
+        }
+     
+        main{
+            width: 25%;
+            margin: 2rem auto;
+        }
 }
