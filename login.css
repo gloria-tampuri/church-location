@@ -134,9 +134,9 @@ form a {
 
 .description{
     margin:1rem 0;
-    width: 85%;
+    color: #bebebe;
     font-weight: lighter;
-    text-align: center;
+    font-size: 0.8rem;
 }
 
 .ff{
