@@ -139,4 +139,55 @@ form a {
     font-weight: 900;
 }
 
+
+
+
 /* for main page */
+.main{
+    width: 100%;
+}
+.map{
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.find-church{
+    display: flex;
+    gap:0.2rem;
+    width: 80%;
+   margin: 2rem auto;
+}
+
+.find-church a{ 
+    text-decoration: none;
+    color:#16365e;
+    background-color: white;
+    padding: 0.5rem 1rem ;
+    font-weight: 900;
+}
+
+.find-text {
+    width: 80%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.arrow{
+    width: 20%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+#church-select{
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 0.5rem 1rem ;
+    border-radius: 0.5rem;
+    color: #16365e;
+    font-weight: 900;
+}
+
+
+
+
